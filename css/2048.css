@@ -1,0 +1,45 @@
+body{
+    background-color: #333;
+}
+#content{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background-color: #ccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item-content{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 38px;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+.score{
+    position: absolute;
+    top: 20%;
+    right:20%;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+#score {
+    display: inline-block;
+    color:red;
+    font-size: 40px;
+    text-indent: 40px;
+}
